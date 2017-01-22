@@ -27,7 +27,10 @@ public class EmpApp {
 			  System.out.println("Invalid input\n");
 	}while (choice!=5);
 		System.out.println("Thanks.");
+		  System.out.println("mental");
+
 	}
+	
 
 	private static List<Employee> delEmp(List<Employee> e) throws NumberFormatException, IOException {
 		listEmp(e);
